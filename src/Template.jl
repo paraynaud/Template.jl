@@ -1,5 +1,7 @@
 module Template
 
+export f
+
 """
     f()
 Prints hello world!  
