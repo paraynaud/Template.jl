@@ -14,3 +14,9 @@ makedocs(
 )
 
 deploydocs(repo = "github.com/paraynaud/Template.jl.git", devbranch = "main")
+
+# To deploy the documentation you have to
+# https://juliadocs.github.io/Documenter.jl/stable/man/hosting/
+# julia> using DocumenterTools
+# julia> DocumenterTools.genkeys(user="my_user_name", repo="MyPackage.jl")
+DocumenterTools.genkeys(user="paraynaud", repo="Template.jl")
