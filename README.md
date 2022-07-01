@@ -21,5 +21,4 @@ This module can be installed with the following command:
 ``` julia
 ] add https://github.com/paraynaud/Template.jl.git
 ```
-See the [tutorial](docs/src/tutorial.md) for a step-by-step example. 
-
+See the [tutorial](docs/src/tutorial.md) for a step-by-step example.
