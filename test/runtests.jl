@@ -1,13 +1,13 @@
 using Test
 
 @testset "first round" begin
-	@test 2==2
-end 
+  @test 2 == 2
+end
 
 using Template
 @testset "test foo" begin
-  @test foo(5.) == 10.
-  @test foo(4.) == foo(foo(2.))
+  @test foo(5.0) == 10.0
+  @test foo(4.0) == foo(foo(2.0))
 
   @test foo(5) == 10
   @test foo(4) == foo(foo(2))
